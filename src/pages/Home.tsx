@@ -13,15 +13,17 @@ const itemsTab:Items[] = [
     {
       selected: true,
       header: {
-        title: 'Que hacemos?1'
+        title: '¿Qué hacemos?'
       },
       content: {
-        title: 'Que hacemos?1',
+        title: '¿Qué hacemos?',
         image: 'https://fakeimg.pl/500x500',
         texts: [
-          'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit soluta eum magni? Illo dicta ratione optio, quisquam suscipit quidem perferendis ullam blanditiis delectus praesentium dolorem nobis laudantium unde. Dignissimos, sequi.',
-          'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit soluta eum magni? Illo dicta ratione optio, quisquam suscipit quidem perferendis ullam blanditiis delectus praesentium dolorem nobis laudantium unde. Dignissimos, sequi.',
-          'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit soluta eum magni? Illo dicta ratione optio, quisquam suscipit quidem perferendis ullam blanditiis delectus praesentium dolorem nobis laudantium unde. Dignissimos, sequi.'
+          'Somos una empresa proveedora de servicios de TI y Outsourcing de Recursos Humanos fundada en 2011, como una iniciativa para ofrecer el outsourcing de servicios de TI. Desde entonces, hemos ampliado nuestros servicios a una variedad de líneas de negocio Hemos desarrollado TDIPLAN, una solución para gestionar el proceso de nóminas de personal, con un nivel de diseño y parametrización que puede adaptarse a cualquier régimen laboral en Perú, configurable para las diversas modalidades que se requieran. Así tenemos despliegues para Régimen General (DL 728, MYPES), Régimen Agrario, Construcción Civil, entre otras.',
+          'En entornos integrados se han hecho interfases de integración con ERP como SAP, Navision y Dynamics (Microsoft), Starsoft, Odoo, etc. para asientos contables é información de costos de mano de obra',
+          'Tenemos soluciones desarrolladas para la Gestión de Almacenes de Proyectos y Obras de Construcción Civil',
+          'Actualmente brindamos servicios de otsourcing de planillas, en las que abarcamos todo el proceso desde el registro de la información (altas de personal, tareos,etc) hasta la entrega de los informes finales, y el cierre de la planilla electrónica, afp, etc.',
+          'Finalmente estamos incursionando en el servicio de desarrollo de aplicaciones y software a medida para empresas de diferentes rubros de la actividad económica. La experiencia y capacidad de nuestro equipo de desarrolladores nos da la confianza y seguridad de brindarles soluciones robustas y estables a nuestros clientes.'
         ]
       }
     },

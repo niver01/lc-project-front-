@@ -76,7 +76,7 @@ export function Footer(): JSX.Element {
         </div>
 
 
-        <div className="fixed right-14 bottom-10 z-50 text-white flex flex-col gap-4">
+        <div className="fixed right-6 bottom-6 z-50 text-white flex flex-col gap-4">
             <div className={`flex transition-all ${toggle ? 'opacity-100' : 'opacity-0'} flex-col items-center justify-center gap-4`}>
                 <div onClick={setToggle} className="w-[2.5em] h-[2.5em] rounded-full bg-vulcan text-white p-2 cursor-pointer shadow-lg">
                     <img src={whatsapp} alt="whatsapp" />
