@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-style: normal;
   overflow-x: hidden;
@@ -24,11 +24,18 @@ body {
 } */
 
 .gradient {
-  background-image: linear-gradient(to right bottom, #353737, #3a3f3f, #3f4748, #445051, #49585a);
+  background-image: linear-gradient(
+    to right bottom,
+    #353737,
+    #3a3f3f,
+    #3f4748,
+    #445051,
+    #49585a
+  );
 }
 
-.content  {
+.content {
   max-width: 1300px !important;
   width: 90%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }

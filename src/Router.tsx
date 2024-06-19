@@ -1,18 +1,15 @@
-import {
-  RouterProvider,
-  createBrowserRouter,
-} from "react-router-dom";
-import { Home } from "./pages";
-import { Blog } from "./pages/Blog";
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { Home } from './pages';
+import { Blog } from './pages/Blog';
 
 export const Router = () => {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: '/',
       element: <Home />,
     },
     {
-      path: "/blog/:id",
+      path: '/blog/:id',
       element: <Blog />,
     },
   ]);

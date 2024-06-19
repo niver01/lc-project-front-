@@ -1,1 +1,1 @@
-export * from './CardPrice'
+export * from './CardPrice';
