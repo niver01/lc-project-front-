@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { ReactNode, useEffect } from 'react';
 import { Button } from '../Button';
 import LogoLc from '../../assets/logo/lc-logo-text-left-black.png';
 import LogoLcBlack from '../../assets/logo/lc-logo-black.png';
@@ -116,11 +116,19 @@ export function Header({ redirect }: HeaderProps): JSX.Element {
   //    function redirect(): void {
   //     animateScroll.scrollTo(window.innerHeight * 6)
   //    }
+  //   useEffect(() => {
+  //     if (toggle) {
+  //       document.body.style.overflow = 'hidden';
+  //       return;
+  //     }
+
+  //     document.body.style.overflowY = 'auto';
+  //   }, [toggle]);
 
   return (
     <>
       <div className="bg-black text-white">
-        <div className="content m-auto py-1 flex items-center gap-2 justify-end   ">
+        <div className="content overflow-hidden m-auto py-1 flex items-center gap-2 justify-end   ">
           <div className="w-4">
             <PhoneIcon />
           </div>
@@ -128,7 +136,7 @@ export function Header({ redirect }: HeaderProps): JSX.Element {
         </div>
       </div>
       <header className="sticky top-0 z-50 bg-color-primary py-4">
-        <div className="content m-auto grid grid-cols-[1fr_auto] lg:grid-cols-[1fr_2fr_1fr] gap-4 items-center">
+        <div className="content overflow-hidden m-auto grid grid-cols-[1fr_auto] lg:grid-cols-[1fr_2fr_1fr] gap-4 items-center">
           <figure className="w-40">
             <img className="w-full" src={LogoLc} alt="" />
           </figure>
@@ -147,7 +155,7 @@ export function Header({ redirect }: HeaderProps): JSX.Element {
       <div
         className={`fixed left-0 top-0 z-50 bg-color-primary header ${toggle ? 'header-active ' : ''} `}
       >
-        <div className="content py-8 h-full m-auto grid grid-rows-[auto_auto_1fr_auto]  gap-8">
+        <div className="content overflow-hidden py-8 h-full m-auto grid grid-rows-[auto_auto_1fr_auto]  gap-8">
           <div className="flex justify-end">
             <ButtonToggle toggle={toggle} setToggle={setToggle} />
           </div>

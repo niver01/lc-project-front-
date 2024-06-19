@@ -218,7 +218,7 @@ export function Home() {
 
       <Section id="whatdo">
         <Element name={'whatdo'}>
-          <div className="content m-auto my-20  ">
+          <div className="content overflow-hidden m-auto my-20  ">
             <Tabs items={itemsTab} />
           </div>
         </Element>
@@ -226,7 +226,7 @@ export function Home() {
 
       <Element name={'processes'}>
         <div className="gradient py-20 ">
-          <div className="content m-auto text-gray-100">
+          <div className="content overflow-hidden m-auto text-gray-100">
             <div className="text-center">
               <h3 className="text-white text-4xl font-bold">
                 Nuestro proceso de diseño y desarrollo Web
@@ -264,7 +264,7 @@ export function Home() {
 
       <Element name={'service'}>
         <div className="py-20  bg-alabasters">
-          <div className="content m-auto grid grid-cols-1 lg:grid-cols-[1fr_3fr] gap-16 items-center">
+          <div className="content overflow-hidden m-auto grid grid-cols-1 lg:grid-cols-[1fr_3fr] gap-16 items-center">
             <div className="text-center lg:text-left">
               <h3 className="text-5xl font-extrabold">
                 Nuestros servicios profesionales
@@ -315,7 +315,7 @@ export function Home() {
       <Section id="article">
         <Element name={'article'}>
           <div className="py-20  bg-white">
-            <div className="content m-auto ">
+            <div className="content overflow-hidden m-auto ">
               <div className="text-center">
                 <h3 className="text-4xl font-bold">Artículos de interés</h3>
                 <p className="my-12 max-w-[60em] w-[100%] m-auto">
@@ -356,7 +356,7 @@ export function Home() {
       <Section id="contact">
         <Element name={'contact'}>
           <div className="bg-color-secundary py-20 ">
-            <div className="content flex items-center justify-center m-auto">
+            <div className="content overflow-hidden flex items-center justify-center m-auto">
               <div className="bg-color-primary text-color-secundary p-8 rounded-3xl shadow-lg max-w-[40em] w-full">
                 <h1 className="text-3xl font-bold mb-4 text-center">
                   Request A Quote For Your Web Design Project
