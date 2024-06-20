@@ -1,6 +1,6 @@
 import { CardArticle, CardArticleSkeleton } from '../components/CardArticle';
 import { Banner } from '../components/Banner';
-import { Button, ButtonVariant } from '../components/Button';
+import { ButtonVariant } from '../components/Button';
 import {
   CardPreciItem,
   CardPreciVariant,

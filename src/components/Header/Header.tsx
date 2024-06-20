@@ -1,4 +1,4 @@
-import { ReactNode, useEffect } from 'react';
+import { ReactNode } from 'react';
 import { Button } from '../Button';
 import LogoLc from '../../assets/logo/lc-logo-text-left-black.png';
 import LogoLcBlack from '../../assets/logo/lc-logo-black.png';
@@ -112,18 +112,6 @@ interface HeaderProps {
 
 export function Header({ redirect }: HeaderProps): JSX.Element {
   const [toggle, setToggle] = useToggle(false);
-
-  //    function redirect(): void {
-  //     animateScroll.scrollTo(window.innerHeight * 6)
-  //    }
-  //   useEffect(() => {
-  //     if (toggle) {
-  //       document.body.style.overflow = 'hidden';
-  //       return;
-  //     }
-
-  //     document.body.style.overflowY = 'auto';
-  //   }, [toggle]);
 
   return (
     <>
