@@ -7,7 +7,7 @@
 }
 
 .header-active {
-  clip-path: circle(110% at 100% 0);
+  clip-path: circle(150% at 100% 0);
 }
 
 .toggle-bar {

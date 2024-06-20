@@ -353,7 +353,7 @@ export function Home() {
         </Element>
       </Section>
 
-      <Section id="contact">
+      {/* <Section id="contact">
         <Element name={'contact'}>
           <div className="bg-color-secundary py-20 ">
             <div className="content overflow-hidden flex items-center justify-center m-auto">
@@ -429,7 +429,7 @@ export function Home() {
             </div>
           </div>
         </Element>
-      </Section>
+      </Section> */}
     </DefaultLayout>
   );
 }
